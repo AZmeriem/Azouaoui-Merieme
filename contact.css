@@ -1,0 +1,147 @@
+label{
+	font-family:cursive;
+	color:;
+}
+input{
+  width:100%;
+  height:35px;
+  margin-top:5px;
+  margin-bottom: 20px;
+  border:1px solid #999;
+  border-radius:15px;
+  padding:5px;
+}
+input[type=submit]{
+  background-color:#6495ed;
+  border:1px solid white;
+  font-family: ;
+  font-Weight:bold;
+  font-size:18px;
+  color:white;
+  height:50px;
+}
+
+
+
+span{
+  color:red
+}
+.successMessage{
+    background-color: #7acc7d;
+    border: #2b5a2d 1px solid;
+    padding: 5px 9px;
+    color: #262b26;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+.errorMessage{
+    background-color: #e64141;
+    border: #da1414 1px solid;
+    padding: 5px 10px;
+    color: #fdf7f7;
+    border-radius: 4px;
+}
+.info{
+    font-size: 0.9em;
+    color: #d67262;
+    letter-spacing: 2px;
+    padding-left: 5px;
+}
+h1{
+	color:white;
+	font-family:cursive;
+}
+.register{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    margin-top: 0.5%;
+    padding: 3%;
+}
+.register-left{
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+.register-left input{
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+.register-right{
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+	margin-left:20%;
+	margin-top:-10%;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 7%;
+    margin-top: 5%;
+}
+.btnRegister{
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+.register .nav-tabs{
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+img{
+}
+.register .nav-tabs .nav-link{
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.register .nav-tabs .nav-link:hover{
+    border: none;
+}
+.register .nav-tabs .nav-link.active{
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+h2{
+	color:#6495ed;
+	text-align:center;
+	font-family:cursive;
+}
