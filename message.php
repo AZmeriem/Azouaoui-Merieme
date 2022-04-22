@@ -6,7 +6,7 @@ $lab['nom'] = array(
 );
 $lab['prenom'] = array(
     'EN' => 'First Name',
-    'FR' => 'Prenom'
+    'FR' => 'Prenom' 
 );
 $lab['photo'] = array(
     'EN' => 'Picture',
